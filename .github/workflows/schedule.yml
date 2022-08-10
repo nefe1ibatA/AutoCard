@@ -7,8 +7,8 @@ on:
     branches: [ main ]
     
   schedule:
-    # UTC 01:00 和 UTC 04:00
-    - cron: '0 1,4 * * *'
+    # UTC 01:00 和 UTC 04:00 和 UTC 17:00
+    - cron: '0 1,4,17 * * *'
   
   # 当star当前仓库时立即执行
   watch:
